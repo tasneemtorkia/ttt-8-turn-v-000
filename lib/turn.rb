@@ -3,8 +3,6 @@ def turn(board)
   string = gets.strip
   input_to_index(string)
   
-  else turn(board)
-  end 
 end 
 
 def display_board(board)
