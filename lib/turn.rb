@@ -3,7 +3,7 @@ def turn(board)
   string = gets.strip
   input_to_index(string)
   if valid_move? 
-    display_board
+    move 
 end 
 
 def display_board(board)
