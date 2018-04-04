@@ -3,7 +3,9 @@ def turn(board)
   string = gets.strip
   input_to_index(string)
   if valid_move? 
-    move 
+    move(board, index, value = "X")
+  else turn
+  end 
 end 
 
 def display_board(board)
